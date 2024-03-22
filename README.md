@@ -1,6 +1,7 @@
 # Step 1: 
-set up a conda environment using the yml file (conda env create -f environment.yml) minimum requirement is the python package ckanapi
+set up a conda environment using the yml file (conda env create -f environment.yml) minimum requirements are python packages: ckanapi, scipy, pandas, matplotlib
 install docker and docker compose
+rename/copy the file env.example to .env
 # Step 2: 
 go to the directory "docker" and run 
 > docker compose up
